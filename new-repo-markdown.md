@@ -3,33 +3,18 @@ New Repo Markdown file
 Alyssa Counsell
 05/07/2020
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this:
-
 ``` r
-summary(cars)
+library(babynames)
+
+head(babynames)
 ```
 
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
-
-## Including Plots
-
-You can also embed plots, for example:
-
-![](new-repo-markdown_files/figure-gfm/pressure-1.png)<!-- -->
-
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+    ## # A tibble: 6 x 5
+    ##    year sex   name          n   prop
+    ##   <dbl> <chr> <chr>     <int>  <dbl>
+    ## 1  1880 F     Mary       7065 0.0724
+    ## 2  1880 F     Anna       2604 0.0267
+    ## 3  1880 F     Emma       2003 0.0205
+    ## 4  1880 F     Elizabeth  1939 0.0199
+    ## 5  1880 F     Minnie     1746 0.0179
+    ## 6  1880 F     Margaret   1578 0.0162
