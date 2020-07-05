@@ -2,7 +2,7 @@
 title: "New Repo Markdown file"
 author: "Alyssa Counsell"
 date: "05/07/2020"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
