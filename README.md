@@ -1,8 +1,6 @@
 # mynewrepo
 
-Coming to you from RStudio
+This is my first repository to really play around with on my github journey!
+Note that this repo is nicknamed testrepo
 
-This line is from github
 
-
-here's me testing out the branch in chapter 22
