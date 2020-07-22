@@ -11,12 +11,11 @@ library(babynames)
 library(tidyverse)
 
 babynames %>%
-filter(year ==1965 & sex =="M") %>%
+filter(year ==1988 & sex =="F") %>%
 arrange(desc(prop)) %>%
 head(10)
 
 # this is just a comment that I'm adding directly in github
-
 
 
 
