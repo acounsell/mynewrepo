@@ -1,0 +1,18 @@
+---
+title: "Data Viz"
+author: "Alyssa Counsell"
+date: "2024-06-18"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+
+penguins %>%
+    ggplot(aes(x=bill_depth_mm)) +
+    geom_histogram()
+```
+
